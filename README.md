@@ -96,10 +96,14 @@ Add the include near the top:
 
 ### 3. Instantiate the module
 
-In the module initialization section (where other modules are created), add:
+In the module initialization (near the end of the function `void setupModules()`) section (where other modules are created), add:
 
 ```cpp
+void setupModules() {
+...
 new EchoBotModule();
+...
+}
 ```
 
 That’s it. The module will register itself automatically.
