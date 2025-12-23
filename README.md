@@ -128,7 +128,7 @@ That’s it. The module will register itself automatically.
 
 ## Compatibility
 
-- Tested with Meshtastic **v2.7.16**
+- Tested with Meshtastic firmware **v2.7.16** and hardware Heltec V3 or Heltec WSL V3.
 - Newer development versions may contain regressions affecting MQTT + broadcast packets
 
 ---
