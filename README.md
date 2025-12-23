@@ -96,6 +96,12 @@ Add the include near the top:
 
 ### 3. Instantiate the module
 
+Edit again:
+
+```
+firmware/src/modules/modules.cpp
+```
+
 In the module initialization (near the end of the function `void setupModules()`) section (where other modules are created), add:
 
 ```cpp
