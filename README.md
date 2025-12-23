@@ -1,2 +1,2 @@
-# meshtastic_bot_module
+# Meshtastic EchoBot
 Basic Meshtastic (LoRa) bot.
